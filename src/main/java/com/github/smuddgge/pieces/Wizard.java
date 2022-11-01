@@ -4,10 +4,8 @@ import com.github.smuddgge.game.ChessBoard;
 import com.github.smuddgge.game.ChessBoardTile;
 import com.github.smuddgge.game.ChessColour;
 import com.github.smuddgge.game.pieces.Piece;
-import com.github.smuddgge.game.pieces.standered.Bishop;
 import com.github.smuddgge.game.pieces.standered.Knight;
 import com.github.smuddgge.game.pieces.standered.Rook;
-import com.github.smuddgge.positions.TilePosition;
 
 import java.util.ArrayList;
 
@@ -15,6 +13,7 @@ public class Wizard extends Piece {
 
     /**
      * Used to create a wizard piece
+     *
      * @param colour The colour of the piece
      */
     public Wizard(ChessColour colour) {
